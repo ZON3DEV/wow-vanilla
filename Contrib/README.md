@@ -1,4 +1,4 @@
-<h3>WoW Admin:</h3>
+<p><h3>WoW Admin:</h3> (Linux Restart Script)</p>
 <br>
 <p>Um das Script verwenden zu können, müssen zwei zusätzliche Pakete installiert werden. Als erstes <b>Screen</b> und als zweites <b>GDB</b> was Du mit folgendem  Befehl tun kannst:</p>
 <br>
