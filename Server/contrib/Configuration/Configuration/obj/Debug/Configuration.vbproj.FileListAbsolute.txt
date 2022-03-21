@@ -1,0 +1,12 @@
+C:\Users\Administrator\source\repos\Configuration\Configuration\bin\Debug\Configuration.exe.config
+C:\Users\Administrator\source\repos\Configuration\Configuration\bin\Debug\Configuration.exe
+C:\Users\Administrator\source\repos\Configuration\Configuration\bin\Debug\Configuration.pdb
+C:\Users\Administrator\source\repos\Configuration\Configuration\bin\Debug\Configuration.xml
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.Form1.resources
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.Resources.resources
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.vbproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.vbproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.exe
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.xml
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.pdb
+C:\Users\Administrator\source\repos\Configuration\Configuration\obj\Debug\Configuration.Einstellungen.resources
