@@ -1,7 +1,7 @@
 -- Include sc_default
 require "lua_scripts/base/sc_default"
 
-local NPC_ENTRY =
+local NPC_ENTRY = 60001
 
 local ITEM_1_ENTRY = 20558 -- Warsong Gulch Mark of Honor
 local ITEM_2_ENTRY = 20559 -- Arathi Basin Mark of Honor

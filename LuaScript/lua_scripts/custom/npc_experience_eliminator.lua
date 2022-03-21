@@ -1,7 +1,7 @@
 -- Include sc_default
 require "lua_scripts/base/sc_default"
 
-local NpcId =
+local NpcId = 60002
 local MoneyCount = 100000
 
 local function GossipHello_ExperienceEliminator(event, player, unit)
