@@ -100,7 +100,7 @@ function UseDialog()
 function CheckRoot()
 {
   if [ "$(id -u)" != "0" ]; then
-      Log "This script can only be used as root!" 1
+      Log "Dieses Script erfordert Root Rechte!" 1
       exit 1
   else
       Log "User is root, check passed" 0
@@ -208,8 +208,8 @@ function GetPrerequisites()
   local OS_VER=1
 
   # Ask the user to continue
-  $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Install Required Dependencies" \
-    --yesno "Would you like to install the required build and development packages?" 8 60
+  $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Erforderliche Software installieren" \
+    --yesno "Sollen die erforderlichen Build und Entwicklungspakete installiert werden?" 8 60
 
   # Check the user's response
   if [ $? -ne 0 ]; then
@@ -218,8 +218,8 @@ function GetPrerequisites()
   fi
 
   # Inform the user of the need for root access
-  $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Install Required Dependencies" \
-    --yesno "Installing packages requires root access, which you will be prompted for.\nDo you want to proceed?" 8 60
+  $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Erforderliche Software installieren" \
+    --yesno "Das Installieren von Paketen erfordert Root-Zugriff, wozu Du aufgefordert wirst.\nWillst Du fortfahren?" 8 60
 
   # Check the user's response
   if [ $? -ne 0 ]; then
@@ -389,10 +389,10 @@ function GetPrerequisites()
   # See if a supported OS was detected
   if [ ${OS_VER} -ne 0 ]; then
     # Log success
-    Log "The development tools and libraries have been installed!" 1
+    Log "Die Entwicklungswerkzeuge und Bibliotheken wurden installiert!" 1
   else
     # Note the error
-    Log "Could not identify the current OS. Nothing was installed." 1
+    Log "Das aktuelle Betriebssystem konnte nicht identifiziert werden. Es wurde nichts installiert." 1
   fi
 }
 
@@ -401,9 +401,9 @@ function GetPrerequisites()
 # Function to get the WoW version
 function GetRelease()
 {
-  VERSION=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Choose WoW Release" \
+  VERSION=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Auswahl der WoW Version" \
     --menu "Select a version of WoW" 0 0 5 \
-    0 "Original Release (Vanilla)" \
+    0 "Drums of War (Vanilla)" \
     1 "The Burning Crusade" \
     2 "Wrath of The Lich King" \
     3 "Cataclysm" \
@@ -413,7 +413,7 @@ function GetRelease()
 
   # Exit if cancelled
   if [ $? -ne 0 ]; then
-    Log "Version selection cancelled by user. No changes have been made to your system." 1
+    Log "Versionsauswahl vom Benutzer abgebrochen." 1
     exit 0
   fi
 
@@ -469,7 +469,7 @@ function GetUser()
   local TMPUSER="$USER"
 
   # Set the user
-  TMPUSER=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "User to run Mangos" \
+  TMPUSER=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Benutzer festlegen" \
      --inputbox "Default: $USER" 8 60 3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -497,14 +497,14 @@ function GetUser()
         usermod -L $USER > /dev/null 2>&1
   else
     # User already exist, asking to keep the user
-    $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "User already exist" \
-      --yesno "Would you like to keep the user \"$USER\"?" 8 60
+    $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Benutzer existiert bereits" \
+      --yesno "Soll der folgende Benutzer erhalten bleiben \"$USER\"?" 8 60
 
     if [ $? -ne 0 ]; then
-      Log "Removing user: $USER" 1
+      Log "Entferne Benutzer: $USER" 1
       userdel -r $USER > /dev/null 2>&1
 
-      Log "Creating user: $USER" 1
+      Log "Erstelle Benutzer: $USER" 1
       useradd -m -d /home/$USER $USER > /dev/null 2>&1
 
       if [ $? -ne 0 ]; then
@@ -517,7 +517,7 @@ function GetUser()
   fi
 
   ROOTPATH="/home/"$USER
-  Log "User: $USER" 0
+  Log "Benutzer: $USER" 0
 }
 
 # Function to get the source and installation paths
@@ -526,7 +526,7 @@ function GetPaths()
   local TMPPATH="$HOME"
 
   # Set the source path
-  TMPPATH=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Source-Code Path" \
+  TMPPATH=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Quellcode Verzeichnis" \
     --inputbox "Default: $SRCPATH" 8 60 3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -542,8 +542,8 @@ function GetPaths()
 
   # Validate source path
   if [ ! -d "$SRCPATH" ]; then
-    $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Path does not exist" \
-      --yesno "Would you like to create the directory \"$SRCPATH\"?" 8 60
+    $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Verzeichnis existiert nicht" \
+      --yesno "Doll das Verzeichnis erstellt werden \"$SRCPATH\"?" 8 60
 
     if [ $? -eq 0 ]; then
       Log "Creating source path: $SRCPATH" 1
@@ -562,8 +562,8 @@ function GetPaths()
     # Check for old sources
     if [ -d "$SRCPATH/server" ] || [ -d "$SRCPATH/database" ]; then
       # Ask to remove the old sources
-      $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Path already exists" \
-        --yesno "Would you like to remove the old sources? (Answer yes if you are cloning MaNGOS)" 9 60
+      $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Verzeichnis existiert bereits" \
+        --yesno "Soll der bestehende Quellcode entfernt werden? (Mit Yes wird der Code erneut geladen)" 9 60
 
       # Remove the old sources if requested
       if [ $? -eq 0 ]; then
@@ -580,7 +580,7 @@ function GetPaths()
   fi
 
   # Set the installation path
-  TMPPATH=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Installation Path" \
+  TMPPATH=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Installations Verzeichnis" \
     --inputbox "Default: $INSTPATH" 8 60 3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -596,8 +596,8 @@ function GetPaths()
 
   # Validate install path
   if [ ! -d "$INSTPATH" ]; then
-    $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Path does not exist" \
-      --yesno "Would you like to create the directory \"$INSTPATH\"?" 8 60
+    $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Verzeichnis existiert nicht" \
+      --yesno "Soll das verzeichnis erstellt werden \"$INSTPATH\"?" 8 60
 
     if [ $? -eq 0 ];then
       Log "Creating install path: $INSTPATH" 1
@@ -617,12 +617,12 @@ function GetPaths()
     if [ -d "$INSTPATH/bin" ] || [ -d "$INSTPATH/lib" ] || [ -d "$INSTPATH/include" ]; then
 
       # Ask to remove the old installation
-      $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Path already exists" \
-        --yesno "Would you like to uninstall the current version of MaNGOS first?" 0 0
+      $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Verzeichnis existiert bereits" \
+        --yesno "Soll die derzeitige Version des Servers deinstalliert werden?" 0 0
 
       # Check the user's response
       if [ $? -eq 0 ]; then
-        Log "Removing old MaNGOS installation..." 1
+        Log "Deinstalliere alte Server Version..." 1
 
         # Clean up the binaries
         if [ -d "$INSTPATH/bin" ]; then
@@ -660,11 +660,11 @@ function GetMangos()
   local CLONE="0"
   local BRANCH=""
 
-  CLONE=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Clone or update MaNGOS" \
-    --menu "Would you like to clone, update, or continue?" 0 0 3 \
-    0 "Clone a fresh copy of MaNGOS" \
-    1 "Update your existing copy of MaNGOS" \
-    2 "Use existing copy" \
+  CLONE=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Quellcode CheckOut" \
+    --menu "Was soll getan werden?" 0 0 3 \
+    0 "Klone aktuellen Quellcode" \
+    1 "Aktualisiere derzeitigen Quellcode" \
+    2 "Verwende derzeitigen Quellcode" \
     3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -709,7 +709,7 @@ function GetMangos()
       let COUNTER=COUNTER+1
     done
 
-    TMPBRANCH=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Select Branch" \
+    TMPBRANCH=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Branch Auswahl" \
       --radiolist "Default: $BRANCH" 0 0 $COUNTER \
       $RADIOLIST \
       3>&2 2>&1 1>&3)
@@ -733,6 +733,7 @@ function GetMangos()
         Log "Cloning Zero branch: $BRANCH" 1
         git clone http://github.com/mangoszero/server.git "$SRCPATH/server" -b $BRANCH --recursive
         git clone http://github.com/mangoszero/database.git "$SRCPATH/database" -b $BRANCH --recursive
+	git clone http://github.com/mangoszero/LuaScripts.git "$SRCPATH/luascripts" -b $BRANCH --recursive
         ;;
 
       1)
@@ -797,18 +798,18 @@ function GetMangos()
 function GetBuildOptions()
 {
   # Select build options
-  OPTIONS=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" \
-    --title "Build Options" \
-    --checklist "Please select your build options" 0 56 7 \
-    1 "Enable Debug" Off \
-    2 "Use Standard Malloc" On \
-    3 "Use External ACE Libraries" On \
-    4 "Use PostgreSQL Instead Of MySQL/MariaDB" Off \
-    5 "Build Client Tools" On \
-    6 "Use SD3" On \
-    7 "Use Eluna" On \
-    8 "Use SOAP" Off \
-    9 "Use Player Bots AI" Off \
+  OPTIONS=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" \
+    --title "Build Optionen" \
+    --checklist "Bitte triff Deine Auswahl" 0 56 7 \
+    1 "Aktiviere Debug" Off \
+    2 "Verwende Standard Malloc" On \
+    3 "Verwende Externe ACE Bibliotheken" On \
+    4 "Verwende PostgreSQL anstelle von MySQL/MariaDB" Off \
+    5 "Erstelle Client Tools" On \
+    6 "Verwende SD3" On \
+    7 "Verwende Eluna" On \
+    8 "Verwende SOAP" Off \
+    9 "Verwende Player Bots AI" Off \
     3>&2 2>&1 1>&3)
 
   if [ $? -ne 0 ]; then
@@ -891,8 +892,8 @@ function GetBuildOptions()
 function BuildMaNGOS()
 {
   # Last chance to cancel building
-  $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Proceed to build MaNGOS" \
-    --yesno "Are you sure you want to build MaNGOS?" 8 60
+  $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Server Erstellung" \
+    --yesno "Bist Du sicher das der Server nun erstellt werden soll?" 8 60
 
   # Check the user's answer
   if [ $? -ne 0 ]; then
@@ -922,7 +923,7 @@ function BuildMaNGOS()
   fi
 
   # Attempt to configure and build MaNGOS
-  Log "Building MaNGOS..." 0
+  Log "Erstelle Server..." 0
   cd "$SRCPATH/server/linux"
   # make sure we are using the cmake3
   UseCmake3
@@ -931,12 +932,12 @@ function BuildMaNGOS()
 
   # Check for an error
   if [ $? -ne 0 ]; then
-    Log "There was an error building MaNGOS!" 1
+    Log "Bei der erstellung des Servers ist ein Fehler aufgetreten!" 1
     exit 1
   fi
 
   # Log success
-  Log "MaNGOS has been built!" 0
+  Log "Der Server wurde erfolgreich erstellt!" 0
 }
 
 
@@ -945,13 +946,13 @@ function BuildMaNGOS()
 function InstallMaNGOS()
 {
   # Ask to install now
-  $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Install MaNGOS" \
-    --yesno "Do you want to install MaNGOS now?" 8 0
+  $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Server Installation" \
+    --yesno "Soll der Server nun installiert werden?" 8 0
 
   # Return if no
   if [ $? -ne 0 ]; then
-    $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Install MaNGOS" \
-      --msgbox "You may install MaNGOS later by changing to:\n$SRCPATH/server/linux\nAnd running: make install" 24 60
+    $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Server Installation" \
+      --msgbox "Wenn Du den Server ein anderes mal installieren willst bearbeite:\n$SRCPATH/server/linux\nund starte den Befehl: make install" 24 60
 
     Log "MaNGOS has not been installed after being built." 1
     exit 0
@@ -1115,7 +1116,7 @@ function HandleDatabases()
   local DB_TOONS="_characters"
 
   # Ask the user what to do here
-  DBMODE=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Database Operations" \
+  DBMODE=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Database Operations" \
     --menu "What would you like to do?" 0 0 3 \
     0 "Install clean databases" \
     1 "Update existing databases" \
@@ -1135,7 +1136,7 @@ function HandleDatabases()
   fi
 
   # Ask the user the DB type
-  DB_TYPE=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Database Type" \
+  DB_TYPE=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Database Type" \
     --menu "Which database are you using?" 0 0 3 \
     0 "MariaDB" \
     1 "MySQL" \
@@ -1149,7 +1150,7 @@ function HandleDatabases()
   fi
 
   # Get the database hostname or IP address
-  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Database Hostname Or IP Address" \
+  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Database Hostname Or IP Address" \
     --inputbox "Default: localhost" 0 0 3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -1164,7 +1165,7 @@ function HandleDatabases()
   fi
 
   # Get the database port
-  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Database port" \
+  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Database port" \
     --inputbox "Default: 3306" 0 0 3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -1179,7 +1180,7 @@ function HandleDatabases()
   fi
 
   # Get the database user username
-  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Database User Username" \
+  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Database User Username" \
     --inputbox "Default: $DB_USER" 8 60 3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -1194,7 +1195,7 @@ function HandleDatabases()
   fi
 
   # Get the database user password
-  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Database User Password" \
+  DB_TMP=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Database User Password" \
     --passwordbox "Default: $DB_UPW" 8 60 3>&2 2>&1 1>&3)
 
   # Exit if cancelled
@@ -1231,7 +1232,7 @@ function HandleDatabases()
   # Install fresh databases if requested
   if [ "$DBMODE" = "0" ]; then
     # Ask which databases to install/reinstall
-    DBSEL=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Select Databases" \
+    DBSEL=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Select Databases" \
       --checklist "Select which databases should be (re)installed" 0 60 4 \
       0 "(Re)Install Realm Database" On \
       1 "(Re)Install World Database" On \
@@ -1289,7 +1290,7 @@ function ExtractResources
 {
   INSTGAMEPATH=$(dirname $(find /home -name "WoW.exe"| head -1 2>>/dev/null))
 
-  GAMEPATH=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "WoW Game Path" \
+  GAMEPATH=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "WoW Game Path" \
     --inputbox "Please, provide the path to your game directory. Default: $INSTGAMEPATH" 8 60 3>&2 2>&1 1>&3)
 
   if [ -z "$GAMEPATH" ]; then
@@ -1301,7 +1302,7 @@ function ExtractResources
     exit 1
   fi
 
-  ACTIONS=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Select Tasks" \
+  ACTIONS=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Select Tasks" \
     --checklist "Please select the extractions to perform" 0 70 3 \
     1 "DBC and Maps" On \
     2 "Vmaps" On \
@@ -1316,7 +1317,7 @@ function ExtractResources
 #TODO What if DBC are not yet generated ??
   if [[ $ACTIONS == *1* ]]; then
     if [ -d "$GAMEPATH/dbc" ]; then
-      $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "DBC and Maps were already generated" \
+      $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "DBC and Maps were already generated" \
         --yesno "Do you want to generate them again?" 8 60
 
       # Check the user's answer
@@ -1381,7 +1382,7 @@ function ExtractResources
 
   if [[ $ACTIONS == *2* ]]; then
     if [ -d "$GAMEPATH/vmaps" ]; then
-      $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "VMaps were already generated" \
+      $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "VMaps were already generated" \
         --yesno "Do you want to generate them again?" 8 60
 
       # Check the user's answer
@@ -1449,7 +1450,7 @@ function ExtractResources
     fi
 
     if [ -d "$GAMEPATH/mmaps" ]; then
-      $DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "MMaps were already generated" \
+      $DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "MMaps were already generated" \
         --yesno "Do you want to generate them again?" 8 60
 
       # Check the user's answer
@@ -1464,7 +1465,7 @@ function ExtractResources
         cp "$INSTPATH/bin/tools/mmap_excluded.txt" "$GAMEPATH"
         cp "$INSTPATH/bin/tools/mmap-extractor" "$GAMEPATH"
 
-        CPU=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Please provide the number of CPU to be used to generate MMaps (1-4)" \
+        CPU=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Please provide the number of CPU to be used to generate MMaps (1-4)" \
          --inputbox "Default: 1" 8 80 3>&2 2>&1 1>&3)
 
         # User cancelled his choice, set default to 1.
@@ -1519,7 +1520,7 @@ function ExtractResources
         cp "$INSTPATH/bin/tools/offmesh.txt" "$GAMEPATH"
         cp "$INSTPATH/bin/tools/mmap_excluded.txt" "$GAMEPATH"
         cp "$INSTPATH/bin/tools/mmap-extractor" "$GAMEPATH"
-    CPU=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Please provide the number of CPU to be used to generate MMaps (1-4)" \
+    CPU=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Please provide the number of CPU to be used to generate MMaps (1-4)" \
          --inputbox "Default: 1" 8 80 3>&2 2>&1 1>&3)
 
         # User cancelled his choice, set default to 1.
@@ -1598,7 +1599,7 @@ CheckRoot
 UseDialog
 
 # Select which activities to do
-TASKS=$($DLGAPP --backtitle "MaNGOS Linux Build Configuration" --title "Select Tasks" \
+TASKS=$($DLGAPP --backtitle "MaNGOS Linux Build Konfiguration" --title "Select Tasks" \
   --checklist "Please select the tasks to perform" 0 70 8 \
   1 "Install Prerequisites" On \
   2 "Set Download And Install Paths" On \
