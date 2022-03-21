@@ -1,0 +1,1461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\aes\aes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\aes\aes_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\anubis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\blowfish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\camellia.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\cast5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\des.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\idea.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\kasumi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\khazad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\kseed.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\multi2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\noekeon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\rc2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\rc5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\rc6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\safer\safer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\safer\saferp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\safer\safer_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\serpent.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\skipjack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\twofish\twofish.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\twofish\twofish_tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\ciphers\xtea.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_add_aad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_add_nonce.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_reset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ccm\ccm_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_add_aad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_setiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_setiv_rfc7905.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\chachapoly\chacha20poly1305_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_addheader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_decrypt_verify_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_encrypt_authenticate_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\eax\eax_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_add_aad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_add_iv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_gf_mult.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_mult_h.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_reset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\gcm\gcm_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_decrypt_verify_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_done_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_done_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_encrypt_authenticate_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_ntz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_shift_xor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\ocb_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb\s_ocb_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_add_aad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_decrypt_last.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_decrypt_verify_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_encrypt_authenticate_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_encrypt_last.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_int_ntz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_int_xor_blocks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\encauth\ocb3\ocb3_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\blake2b.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\blake2s.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\chc\chc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\helper\hash_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\helper\hash_filehandle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\helper\hash_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\helper\hash_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\md2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\md4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\md5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\rmd128.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\rmd160.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\rmd256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\rmd320.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha2\sha224.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha2\sha256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha2\sha384.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha2\sha512.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha2\sha512_224.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha2\sha512_256.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\sha3_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\tiger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\whirl\whirl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\hashes\whirl\whirltab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2bmac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2bmac_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2bmac_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2bmac_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2bmac_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2smac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2smac_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2smac_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2smac_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\blake2\blake2smac_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\f9\f9_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\f9\f9_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\f9\f9_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\f9\f9_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\f9\f9_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\f9\f9_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\f9\f9_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\hmac\hmac_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\hmac\hmac_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\hmac\hmac_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\hmac\hmac_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\hmac\hmac_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\hmac\hmac_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\hmac\hmac_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\omac\omac_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\omac\omac_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\omac\omac_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\omac\omac_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\omac\omac_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\omac\omac_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\omac\omac_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pelican\pelican.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pelican\pelican_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pelican\pelican_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_ntz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_shift_xor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\pmac\pmac_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\poly1305\poly1305.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\poly1305\poly1305_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\poly1305\poly1305_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\poly1305\poly1305_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\poly1305\poly1305_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\xcbc\xcbc_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\xcbc\xcbc_file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\xcbc\xcbc_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\xcbc\xcbc_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\xcbc\xcbc_memory_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\xcbc\xcbc_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\mac\xcbc\xcbc_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\fp\ltc_ecc_fp_mulmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\gmp_desc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\ltm_desc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\radix_to_bin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\rand_bn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\rand_prime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\math\tfm_desc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\base16\base16_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\base16\base16_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\base32\base32_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\base32\base32_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\base64\base64_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\base64\base64_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\burn_stack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\compare_testvector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\copy_or_zeromem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_argchk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_cipher_descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_cipher_is_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_constants.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_cipher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_cipher_any.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_cipher_id.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_hash_any.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_hash_id.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_hash_oid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_find_prng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_fsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_hash_descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_hash_is_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_inits.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_ltc_mp_descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_prng_descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_prng_is_valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_prng_rng_descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_register_all_ciphers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_register_all_hashes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_register_all_prngs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_register_cipher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_register_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_register_prng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_sizes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_unregister_cipher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_unregister_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\crypt\crypt_unregister_prng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\error_to_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\hkdf\hkdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\hkdf\hkdf_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\mem_neq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\padding\padding_depad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\padding\padding_pad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pbes\pbes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pbes\pbes1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pbes\pbes2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pkcs12\pkcs12_kdf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pkcs12\pkcs12_utf8_to_utf16.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pkcs5\pkcs_5_1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pkcs5\pkcs_5_2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\pkcs5\pkcs_5_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\ssh\ssh_decode_sequence_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\ssh\ssh_encode_sequence_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\misc\zeromem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cbc\cbc_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cbc\cbc_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cbc\cbc_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cbc\cbc_getiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cbc\cbc_setiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cbc\cbc_start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cfb\cfb_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cfb\cfb_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cfb\cfb_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cfb\cfb_getiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cfb\cfb_setiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\cfb\cfb_start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ctr\ctr_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ctr\ctr_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ctr\ctr_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ctr\ctr_getiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ctr\ctr_setiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ctr\ctr_start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ctr\ctr_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ecb\ecb_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ecb\ecb_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ecb\ecb_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ecb\ecb_start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\f8\f8_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\f8\f8_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\f8\f8_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\f8\f8_getiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\f8\f8_setiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\f8\f8_start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\f8\f8_test_mode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_getiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_setiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\lrw\lrw_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ofb\ofb_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ofb\ofb_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ofb\ofb_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ofb\ofb_getiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ofb\ofb_setiv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\ofb\ofb_start.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\xts\xts_decrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\xts\xts_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\xts\xts_encrypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\xts\xts_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\xts\xts_mult_x.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\modes\xts\xts_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\bit\der_decode_bit_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\bit\der_decode_raw_bit_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\bit\der_encode_bit_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\bit\der_encode_raw_bit_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\bit\der_length_bit_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\boolean\der_decode_boolean.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\boolean\der_encode_boolean.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\boolean\der_length_boolean.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\choice\der_decode_choice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\custom_type\der_decode_custom_type.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\custom_type\der_encode_custom_type.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\custom_type\der_length_custom_type.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\general\der_asn1_maps.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\general\der_decode_asn1_identifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\general\der_decode_asn1_length.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\general\der_encode_asn1_identifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\general\der_encode_asn1_length.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\general\der_length_asn1_identifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\general\der_length_asn1_length.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\generalizedtime\der_decode_generalizedtime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\generalizedtime\der_encode_generalizedtime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\generalizedtime\der_length_generalizedtime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\ia5\der_decode_ia5_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\ia5\der_encode_ia5_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\ia5\der_length_ia5_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\integer\der_decode_integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\integer\der_encode_integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\integer\der_length_integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\object_identifier\der_decode_object_identifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\object_identifier\der_encode_object_identifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\object_identifier\der_length_object_identifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\octet\der_decode_octet_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\octet\der_encode_octet_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\octet\der_length_octet_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\printable_string\der_decode_printable_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\printable_string\der_encode_printable_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\printable_string\der_length_printable_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_decode_sequence_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_decode_sequence_flexi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_decode_sequence_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_encode_sequence_ex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_encode_sequence_multi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_length_sequence.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_sequence_free.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\sequence\der_sequence_shrink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\set\der_encode_set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\set\der_encode_setof.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\short_integer\der_decode_short_integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\short_integer\der_encode_short_integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\short_integer\der_length_short_integer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\teletex_string\der_decode_teletex_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\teletex_string\der_length_teletex_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\utctime\der_decode_utctime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\utctime\der_encode_utctime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\utctime\der_length_utctime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\utf8\der_decode_utf8_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\utf8\der_encode_utf8_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\der\utf8\der_length_utf8_string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\oid\pk_get_oid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\oid\pk_oid_cmp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\oid\pk_oid_str.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\pkcs8\pkcs8_decode_flexi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\x509\x509_decode_subject_public_key_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\asn1\x509\x509_encode_subject_public_key_info.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_check_pubkey.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_export.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_export_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_free.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_generate_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_import.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_set_pg_dhparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dh\dh_shared_secret.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_decrypt_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_encrypt_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_export.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_free.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_generate_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_generate_pqg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_import.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_make_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_set_pqg_dsaparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_shared_secret.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_sign_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_verify_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\dsa\dsa_verify_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_ansi_x963_export.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_ansi_x963_import.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_decrypt_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_encrypt_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_export.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_export_openssl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_find_curve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_free.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_get_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_get_oid_str.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_get_size.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_import.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_import_openssl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_import_pkcs8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_import_x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_make_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_recover_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_set_curve.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_set_curve_internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_set_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_shared_secret.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_sign_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_sizes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_ssh_ecdsa_encode_name.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ecc_verify_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_export_point.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_import_point.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_is_point.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_is_point_at_infinity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_map.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_mul2add.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_mulmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_mulmod_timing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_points.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_projective_add_point.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_projective_dbl_point.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\ecc\ltc_ecc_verify_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_i2osp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_mgf1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_oaep_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_oaep_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_os2ip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_pss_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_pss_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_v1_5_decode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\pkcs1\pkcs_1_v1_5_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_decrypt_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_encrypt_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_export.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_exptmod.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_free.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_get_size.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_import.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_import_pkcs8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_import_x509.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_make_key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_set.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_sign_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_sign_saltlen_get.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\pk\rsa\rsa_verify_hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\chacha20.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\fortuna.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\rc4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\rng_get_bytes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\rng_make_prng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\sober128.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\sprng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\prngs\yarrow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_crypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_ivctr32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_ivctr64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_keystream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_setup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\chacha\chacha_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\rabbit\rabbit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\rabbit\rabbit_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\rc4\rc4_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\rc4\rc4_stream_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\rc4\rc4_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\salsa20_crypt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\salsa20_done.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\salsa20_ivctr64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\salsa20_keystream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\salsa20_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\salsa20_setup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\salsa20_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\xsalsa20_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\xsalsa20_setup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\salsa20\xsalsa20_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\sober128\sober128tab.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\sober128\sober128_stream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\sober128\sober128_stream_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\sober128\sober128_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\sosemanuk\sosemanuk.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\sosemanuk\sosemanuk_memory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\stream\sosemanuk\sosemanuk_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_argchk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_cipher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_custom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_mac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_misc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_pk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_pkcs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_private.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\src\headers\tomcrypt_prng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\dep\tomlib\Crypt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3C79B78F-EE49-358F-BF78-8A31D912E682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D25792E-02BE-3133-B20F-DF7B85DF5BD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

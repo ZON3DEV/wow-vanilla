@@ -1,0 +1,1282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5339F317-7943-3DF9-B862-A79DB08964F7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>game</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>pchdef.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pchdef.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_DEBUG;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_DEBUG;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Gw</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>pchdef.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pchdef.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>pchdef.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pchdef.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>pchdef.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pchdef.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\src\game\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\AuctionHouseBot.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\AuctionHouseBot.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGround.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGround.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundAB.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundAB.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundAV.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundAV.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundWS.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround\BattleGroundWS.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\AHBotCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\AccountCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\AuctionHouseCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\BanAndKickCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\CastAndAuraCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\CommunicationCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\CreatureCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\DebugCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\EventCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\GMCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\GMTicketCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\GameObjectCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\GuildCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\InstanceCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\ListCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\LookupCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\MMapCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\MailCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\MiscellanousCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\PlayerAndCreatureCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\PlayerCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\PlayerHonorCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\PlayerLearnCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\PlayerMiscCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\PoolCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\QuestCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\RACommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\ReloadCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\ServerCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\TeleportationAndPositionCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\TriggerCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\WaypointCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands\ZZZ_CustomCommands.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Maps\MapUpdater.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Maps\MapUpdater.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\ConfusedMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\ConfusedMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\FleeingMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\FleeingMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\HomeMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\HomeMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\IdleMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\IdleMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\MotionMaster.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\MotionMaster.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\MovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\MovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\PathFinder.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\PathFinder.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\PointMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\PointMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\RandomMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\RandomMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\TargetedMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\TargetedMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\WaypointMovementGenerator.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators\WaypointMovementGenerator.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\MoveSpline.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\MoveSpline.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\MoveSplineFlag.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\MoveSplineInit.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\MoveSplineInit.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\MoveSplineInitArgs.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\packet_builder.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\packet_builder.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\spline.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\spline.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\spline.impl.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\typedefs.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\movement\util.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\AggressorAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\AggressorAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\AuctionHouseMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\AuctionHouseMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Bag.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Bag.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Camera.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Camera.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Corpse.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Corpse.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Creature.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Creature.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureAI.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureAIImpl.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureAIRegistry.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureAIRegistry.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureAISelector.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureAISelector.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureEventAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureEventAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureEventAIMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\CreatureEventAIMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\DynamicObject.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\DynamicObject.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Formulas.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GMTicketMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GMTicketMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GameObject.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GameObject.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GameObjectAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GameObjectAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GuardAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\GuardAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Guild.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Guild.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Item.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Item.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ItemEnchantmentMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ItemEnchantmentMgr.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ItemPrototype.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\LootMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\LootMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\NullCreatureAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\NullCreatureAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Object.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Object.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectAccessor.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectAccessor.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectGuid.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectGuid.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectPosSelector.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ObjectPosSelector.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Pet.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Pet.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\PetAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\PetAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Player.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Player.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\PlayerLogger.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\PlayerLogger.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ReactorAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ReactorAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ReputationMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\ReputationMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\SocialMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\SocialMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\SpellMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\SpellMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\StatSystem.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\TemporarySummon.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\TemporarySummon.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Totem.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Totem.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\TotemAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\TotemAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Unit.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\Unit.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\UnitEvents.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\UpdateFields.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Object\UpdateMask.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvP.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvP.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvPEP.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvPEP.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvPMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvPMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvPSI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP\OutdoorPvPSI.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\FollowerRefManager.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\FollowerReference.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\FollowerReference.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\GroupRefManager.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\GroupReference.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\GroupReference.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\HostileRefManager.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\HostileRefManager.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\MapRefManager.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\MapReference.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\ThreatManager.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\References\ThreatManager.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\DBCEnums.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\DBCStores.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\DBCStores.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\DBCStructure.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\DBCfmt.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\Opcodes.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\Opcodes.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\SQLStorages.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\SQLStorages.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\SharedDefines.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\WorldSession.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\WorldSession.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\WorldSocket.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\WorldSocket.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\WorldSocketMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Server\WorldSocketMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Time\GameTime.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Time\GameTime.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Time\UpdateTime.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Time\UpdateTime.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Tools\CharacterDatabaseCleaner.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Tools\CharacterDatabaseCleaner.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Tools\Language.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Tools\PlayerDump.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Tools\PlayerDump.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\BIH.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\BIH.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\BIHWrap.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\DynamicTree.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\DynamicTree.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\GameObjectModel.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\GameObjectModel.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\IVMapManager.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\MapTree.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\MapTree.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\ModelInstance.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\ModelInstance.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\RegularGrid.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\TileAssembler.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\TileAssembler.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapDefinitions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapFactory.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapManager2.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapManager2.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\WorldModel.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\WorldModel.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Warden.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Warden.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\WardenCheckMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\WardenCheckMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\WardenMac.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\WardenMac.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\WardenWin.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\WardenWin.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules\WardenModuleMac.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules\WardenModuleWin.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\AccountMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\AccountMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\AddonHandler.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\AddonHandler.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\AuctionHouseHandler.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Cell.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\CellImpl.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Channel.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Channel.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ChannelHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ChannelMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ChannelMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\CharacterHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Chat.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Chat.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ChatHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\CombatHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\CommandMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\CommandMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\CreatureLinkingMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\CreatureLinkingMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\DisableMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\DisableMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\DuelHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GMTicketHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GameEventMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GameEventMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GossipDef.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GossipDef.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridDefines.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridMap.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridMap.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridNotifiers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridNotifiers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridNotifiersImpl.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridStates.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GridStates.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Group.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Group.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GroupHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GuildHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GuildMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\GuildMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\InstanceData.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\InstanceData.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ItemHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\LFGHandler.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\LFGHandler.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\LFGMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\LFGMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\LootHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Mail.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Mail.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MailHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Map.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Map.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MapManager.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MapManager.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MapPersistentStateMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MapPersistentStateMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MassMailMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MassMailMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MiscHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MoveMap.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MoveMap.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MoveMapSharedDefines.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MovementGeneratorImpl.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\MovementHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\NPCHandler.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\NPCHandler.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ObjectGridLoader.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ObjectGridLoader.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Path.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\PetHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\PetitionsHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\PoolManager.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\PoolManager.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\QueryHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\QuestDef.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\QuestDef.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\QuestHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ScriptMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\ScriptMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\SkillHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Spell.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Spell.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\SpellAuraDefines.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\SpellAuras.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\SpellAuras.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\SpellEffects.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\SpellHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\TaxiHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\TradeHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Transports.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Transports.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\UnitAuraProcHandler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\UpdateData.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\UpdateData.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\WaypointManager.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\WaypointManager.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Weather.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\Weather.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\World.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers\World.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\AuraMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\BattleGroundHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\BattleGroundMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\BindingMap.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\CorpseMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\CreatureHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\CreatureMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaCreatureAI.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaEventMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaEventMgr.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaIncludes.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaInstanceAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaInstanceAI.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaQueryMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaTemplate.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaUtility.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ElunaUtility.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GameObjectHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GameObjectMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GlobalMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GossipHooks.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GroupHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GroupMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GuildHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\GuildMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\HookHelpers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\Hooks.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\InstanceHooks.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ItemHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ItemMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\LuaEngine.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\LuaEngine.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\LuaFunctions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\MapMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ObjectMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\PacketHooks.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\PlayerHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\PlayerMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\QuestMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\ServerHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\SpellMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\UnitMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\VehicleHooks.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\VehicleMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\WorldObjectMethods.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\WorldPacketMethods.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\lmarshal.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna\lmarshal.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\AiFactory.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\AiFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\ChatFilter.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\ChatFilter.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\ChatHelper.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\ChatHelper.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\FleeManager.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\FleeManager.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\Helpers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\LazyCalculatedValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\LootObjectStack.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\LootObjectStack.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotAI.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotAI.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotAIAware.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotAIBase.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotAIBase.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotAIConfig.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotAIConfig.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotFactory.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotMgr.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotSecurity.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\PlayerbotSecurity.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\RandomPlayerbotFactory.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\RandomPlayerbotFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\RandomPlayerbotMgr.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\RandomPlayerbotMgr.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\playerbot.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\playerbotDefs.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\AhBot.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\AhBot.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\AhBotConfig.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\AhBotConfig.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\Category.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\Category.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\ConsumableCategory.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\ConsumableCategory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\ItemBag.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\ItemBag.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\PricingStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\PricingStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\TradeCategory.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot\TradeCategory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Action.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Action.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\ActionBasket.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\ActionBasket.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\AiObject.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\AiObject.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\AiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\AiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Engine.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Engine.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Event.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Event.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\ExternalEventHelper.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\ItemVisitors.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Multiplier.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Multiplier.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\NamedObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\PassiveMultiplier.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\PassiveMultiplier.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Queue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Queue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Strategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Strategy.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\StrategyContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Trigger.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Trigger.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Value.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\Value.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AcceptDuelAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AcceptInvitationAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AcceptQuestAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AcceptQuestAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AcceptResurrectAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ActionContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AddLootAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AddLootAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AreaTriggerAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AreaTriggerAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AttackAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\AttackAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\BankAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\BankAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\BuffAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\BuffAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\BuyAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\BuyAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\CastCustomSpellAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\CastCustomSpellAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChangeChatAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChangeChatAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChangeStrategyAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChangeStrategyAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChangeTalentsAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChangeTalentsAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChatActionContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChatShortcutActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChatShortcutActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\CheckMountStateAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\CheckMountStateAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ChooseTargetActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\DestroyItemAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\DestroyItemAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\DropQuestAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\DropQuestAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\EmoteAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\EmoteAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\EquipAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\EquipAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\FollowActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\FollowActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GenericActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GenericActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GenericSpellActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GenericSpellActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GossipHelloAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GossipHelloAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GuildAcceptAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GuildAcceptAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GuildBankAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\GuildBankAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\HelpAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\HelpAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\InventoryAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\InventoryAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\InventoryChangeFailureAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\InventoryChangeFailureAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\InviteToGroupAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LeaveGroupAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LfgActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LfgActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ListQuestsActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ListQuestsActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ListSpellsAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ListSpellsAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LogLevelAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LogLevelAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LootAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LootAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LootRollAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LootRollAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LootStrategyAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\LootStrategyAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\MovementActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\MovementActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\NonCombatActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\NonCombatActions.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\PassLeadershipToMasterAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\PositionAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\PositionAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\QueryItemUsageAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\QueryItemUsageAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\QueryQuestAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\QueryQuestAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\QuestAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\QuestAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ReachTargetActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ReadyCheckAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ReadyCheckAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ReleaseSpiritAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\RememberTaxiAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\RememberTaxiAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\RepairAllAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\RepairAllAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ResetAiAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ResetAiAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ReviveFromCorpseAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\ReviveFromCorpseAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\RewardAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\RewardAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\RtiAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SaveManaAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SaveManaAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SecurityCheckAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SecurityCheckAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SellAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SellAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SetHomeAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SetHomeAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\StatsAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\StatsAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\StayActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\StayActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SuggestWhatToDoAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\SuggestWhatToDoAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TalkToQuestGiverAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TalkToQuestGiverAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TaxiAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TaxiAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TeleportAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TeleportAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellCastFailedAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellCastFailedAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellItemCountAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellItemCountAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellLosAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellLosAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellMasterAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellReputationAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellReputationAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellTargetAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TellTargetAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TradeAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TradeAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TradeStatusAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TradeStatusAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TrainerAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\TrainerAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\UnequipAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\UnequipAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\UseItemAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\UseItemAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\UseMeetingStoneAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\UseMeetingStoneAction.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\WhoAction.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\WhoAction.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\actions\WorldPacketActionContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\AttackEnemyPlayersStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\AttackEnemyPlayersStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\AttackRtiStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\AttackRtiStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\AttackWeakStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\AttackWeakStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\CastTimeStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\CastTimeStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\ChatCommandHandlerStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\ChatCommandHandlerStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\CombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\CombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\ConserveManaStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\ConserveManaStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DeadStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DeadStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DpsAoeStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DpsAoeStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DpsAssistStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DpsAssistStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DuelStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\DuelStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\EmoteStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\EmoteStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FleeStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FleeStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FollowLineStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FollowLineStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FollowMasterRandomStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FollowMasterRandomStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FollowMasterStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\FollowMasterStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\GrindingStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\GrindingStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\GuardStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\GuardStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\KiteStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\KiteStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\LootNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\LootNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\MeleeCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\MeleeCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\MoveRandomStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\MoveRandomStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\NonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\NonCombatStrategy.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\PassTroughStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\PassiveStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\PassiveStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\PullStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\PullStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\QuestStrategies.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\QuestStrategies.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\RacialsStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\RacialsStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\RangedCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\RangedCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\RunawayStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\RunawayStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayCircleStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayCircleStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayLineStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayLineStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\StayStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\TankAoeStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\TankAoeStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\TankAssistStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\TankAssistStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\TellTargetStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\TellTargetStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\ThreatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\ThreatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\UseFoodStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\UseFoodStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\UsePotionsStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\UsePotionsStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\WorldPacketHandlerStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\generic\WorldPacketHandlerStrategy.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\ChatCommandTrigger.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\ChatTriggerContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\CureTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\CureTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\GenericTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\GenericTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\HealthTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\HealthTriggers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\LfgTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\LootTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\LootTriggers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\RangeTriggers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\TriggerContext.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\WithinAreaTrigger.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\WorldPacketTrigger.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\triggers\WorldPacketTriggerContext.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AlwaysLootListValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AoeHealValues.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AoeHealValues.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AttackerCountValues.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AttackerCountValues.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AttackerWithoutAuraTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AttackerWithoutAuraTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AttackersValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AttackersValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\AvailableLootValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\CcTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\CcTargetValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ChatValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\CurrentCcTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\CurrentCcTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\CurrentTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\CurrentTargetValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\DistanceValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\DpsTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\DpsTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\DuelTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\DuelTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\EnemyHealerTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\EnemyHealerTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\EnemyPlayerValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\EnemyPlayerValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\GrindTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\GrindTargetValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\HasAvailableLootValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\HasTotemValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\InvalidTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\InvalidTargetValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\IsBehindValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\IsFacingValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\IsMovingValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ItemCountValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ItemCountValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ItemForSpellValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ItemForSpellValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ItemUsageValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ItemUsageValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LastMovementValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LastSpellCastTimeValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LastSpellCastValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LeastHpTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LeastHpTargetValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LfgValues.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LineTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LineTargetValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LogLevelValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\LootStrategyValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ManaSaveLevelValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\MasterTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestAdsValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestAdsValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestCorpsesValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestCorpsesValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestGameObjects.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestGameObjects.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestNpcsValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestNpcsValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\NearestUnitsValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberToDispel.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberToDispel.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberToHeal.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberToHeal.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberToResurrect.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberToResurrect.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberWithoutAuraValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PartyMemberWithoutAuraValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PetTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PositionValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PositionValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PossibleTargetsValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\PossibleTargetsValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\RtiTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\RtiValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\RtiValue.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\SelfTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\SpellCastUsefulValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\SpellCastUsefulValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\SpellIdValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\SpellIdValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\StatsValues.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\StatsValues.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\TankTargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\TankTargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\TargetValue.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\TargetValue.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ThreatValues.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ThreatValues.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\values\ValueContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\BearTankDruidStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\BearTankDruidStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\CasterDruidStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\CasterDruidStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\CatDpsDruidStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\CatDpsDruidStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidAiObjectContext.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidBearActions.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidCatActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidMultipliers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidShapeshiftActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\DruidTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\FeralDruidStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\FeralDruidStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\GenericDruidNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\GenericDruidNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\GenericDruidStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\GenericDruidStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\HealDruidStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\druid\HealDruidStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\DpsHunterStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\DpsHunterStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\GenericHunterNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\GenericHunterNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\GenericHunterStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\GenericHunterStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterAiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterBuffStrategies.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterBuffStrategies.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterMultipliers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\hunter\HunterTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\ArcaneMageStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\ArcaneMageStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\FireMageStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\FireMageStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\FrostMageStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\FrostMageStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\GenericMageNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\GenericMageNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\GenericMageStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\GenericMageStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageAiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageMultipliers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\mage\MageTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\DpsPaladinStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\DpsPaladinStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\GenericPaladinNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\GenericPaladinNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\GenericPaladinStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\GenericPaladinStrategy.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\GenericPaladinStrategyActionNodeFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinAiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinBuffStrategies.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinBuffStrategies.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinMultipliers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\PaladinTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\TankPaladinStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\paladin\TankPaladinStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\GenericPriestStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\GenericPriestStrategy.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\GenericPriestStrategyActionNodeFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\HealPriestStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\HealPriestStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\HolyPriestStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\HolyPriestStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestAiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestMultipliers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestNonCombatStrategy.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestNonCombatStrategyActionNodeFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\PriestTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\ShadowPriestStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\ShadowPriestStrategy.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\priest\ShadowPriestStrategyActionNodeFactory.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\DpsRogueStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\DpsRogueStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\GenericRogueNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\GenericRogueNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueAiObjectContext.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueComboActions.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueFinishingActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueMultipliers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueOpeningActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\rogue\RogueTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\CasterShamanStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\CasterShamanStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\GenericShamanStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\GenericShamanStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\HealShamanStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\HealShamanStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\MeleeShamanStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\MeleeShamanStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanAiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanMultipliers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\ShamanTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\TotemsShamanStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\shaman\TotemsShamanStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\DpsWarlockStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\DpsWarlockStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\GenericWarlockNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\GenericWarlockNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\GenericWarlockStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\GenericWarlockStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\TankWarlockStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\TankWarlockStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockAiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockMultipliers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warlock\WarlockTriggers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\DpsWarriorStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\DpsWarriorStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\GenericWarriorNonCombatStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\GenericWarriorNonCombatStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\GenericWarriorStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\GenericWarriorStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\TankWarriorStrategy.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\TankWarriorStrategy.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorActions.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorActions.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorAiObjectContext.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorAiObjectContext.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorMultipliers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorMultipliers.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorTriggers.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\strategy\warrior\WarriorTriggers.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\pchdef.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\pchdef.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pchdef.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pchdef.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pchdef.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pchdef.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\src\modules\SD3\mangosscript.vcxproj">
+      <Project>{F6E90F6C-72F7-31F4-8CDB-3FA1186975DA}</Project>
+      <Name>mangosscript</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

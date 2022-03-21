@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lbitlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lauxlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\llex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\llimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lopcodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lparser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lundump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lvm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\lzio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\dep\lualib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3C79B78F-EE49-358F-BF78-8A31D912E682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D25792E-02BE-3133-B20F-DF7B85DF5BD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

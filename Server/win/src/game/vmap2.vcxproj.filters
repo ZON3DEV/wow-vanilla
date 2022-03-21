@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\BIH.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapManager2.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\MapTree.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\TileAssembler.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\WorldModel.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\ModelInstance.cpp">
+      <Filter>vmaps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\BIH.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapManager2.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\MapTree.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\TileAssembler.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\WorldModel.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\ModelInstance.h">
+      <Filter>vmaps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\src\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="vmaps">
+      <UniqueIdentifier>{D4C87784-F9EC-3F6C-891A-BB84F90A8502}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

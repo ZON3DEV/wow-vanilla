@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\precompiled.cpp">
+      <Filter>Include Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\sc_creature.cpp">
+      <Filter>Include Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\sc_grid_searchers.cpp">
+      <Filter>Include Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\sc_instance.cpp">
+      <Filter>Include Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\system\ScriptDevMgr.cpp">
+      <Filter>System Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\system\ScriptLoader.cpp">
+      <Filter>System Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\system\system.cpp">
+      <Filter>System Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\escort_ai.cpp">
+      <Filter>Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\follower_ai.cpp">
+      <Filter>Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\guard_ai.cpp">
+      <Filter>Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\pet_ai.cpp">
+      <Filter>Base Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\battlegrounds\battleground.cpp">
+      <Filter>Battleground Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\areatrigger_scripts.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\bosses_emerald_dragons.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\go_scripts.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\guards.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\item_scripts.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\mob_generic_creature.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\npc_professions.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\npcs_special.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\spell_scripts.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\world_map_scripts.cpp">
+      <Filter>World Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\alterac_mountains.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\arathi_highlands.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blasted_lands.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\boss_kazzak.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\burning_steppes.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\dun_morogh.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\eastern_plaguelands.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\elwynn_forest.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\gilneas.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\gilneas_city.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\hinterlands.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\ironforge.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\loch_modan.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\redridge_mountains.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\searing_gorge.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\silvermoon_city.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\silverpine_forest.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stormwind_city.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stranglethorn_vale.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\swamp_of_sorrows.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\tirisfal_glades.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\twilight_highlands.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\undercity.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\vashjir.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\western_plaguelands.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\westfall.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\wetlands.cpp">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ashenvale.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\azshara.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\boss_azuregos.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\darkshore.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\desolace.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\durotar.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\dustwallow_marsh.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\felwood.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\feralas.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\moonglade.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\mount_hyjal.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\mulgore.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\orgrimmar.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\silithus.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\stonetalon_mountains.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\tanaris.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\teldrassil.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\the_barrens.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\thousand_needles.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\thunder_bluff.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\uldum.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ungoro_crater.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\winterspring.cpp">
+      <Filter>Kalimdor Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_depths\blackrock_depths.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_depths\boss_ambassador_flamelash.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_depths\boss_emperor_dagran_thaurissan.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_depths\boss_general_angerforge.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_depths\boss_high_interrogator_gerstahn.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_depths\instance_blackrock_depths.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Depths</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_spire\boss_gyth.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_spire\boss_overlord_wyrmthalak.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_spire\boss_pyroguard_emberseer.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_spire\instance_blackrock_spire.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Spire</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\deadmines\boss_mr_smite.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Deadmines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\deadmines\deadmines.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Deadmines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\deadmines\instance_deadmines.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Deadmines</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\gnomeregan\boss_thermaplugg.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Gnomeregan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\gnomeregan\gnomeregan.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Gnomeregan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\gnomeregan\instance_gnomeregan.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Gnomeregan</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scarlet_monastery\boss_arcanist_doan.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scarlet Monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scarlet_monastery\boss_herod.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scarlet Monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scarlet_monastery\boss_mograine_and_whitemane.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scarlet Monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scarlet_monastery\instance_scarlet_monastery.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scarlet Monastery</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scholomance\boss_darkmaster_gandling.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scholomance\boss_jandice_barov.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scholomance\instance_scholomance.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scholomance\scholomance.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scholomance</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\uldaman\boss_archaedas.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Uldaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\uldaman\instance_uldaman.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Uldaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\uldaman\uldaman.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Uldaman</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\shadowfang_keep\instance_shadowfang_keep.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Shadowfang Keep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\shadowfang_keep\shadowfang_keep.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Shadowfang Keep</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\sunken_temple\instance_sunken_temple.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Sunken Temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\sunken_temple\sunken_temple.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Sunken Temple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stratholme\boss_baroness_anastari.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stratholme\boss_cannon_master_willey.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stratholme\boss_dathrohan_balnazzar.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stratholme\boss_maleki_the_pallid.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stratholme\instance_stratholme.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stratholme\stratholme.cpp">
+      <Filter>Eastern Kingdoms Scripts\Instances\Stratholme</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_baron_geddon.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_garr.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_gehennas.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_golemagg.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_lucifron.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_magmadar.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_majordomo_executus.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_ragnaros.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_shazzrah.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\boss_sulfuron_harbinger.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\instance_molten_core.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\molten_core.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_broodlord_lashlayer.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_chromaggus.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_ebonroc.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_firemaw.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_flamegor.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_nefarian.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_razorgore.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_vaelastrasz.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\boss_victor_nefarius.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\instance_blackwing_lair.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_anubrekhan.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_faerlina.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_four_horsemen.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_gluth.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_gothik.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_grobbulus.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_heigan.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_kelthuzad.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_loatheb.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_maexxna.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_noth.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_patchwerk.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_razuvious.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_sapphiron.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\boss_thaddius.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\instance_naxxramas.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_arlokk.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_hakkar.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_hazzarah.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_jeklik.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_jindo.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_mandokir.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_marli.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_renataki.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_thekal.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\boss_venoxis.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\instance_zulgurub.cpp">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\blackfathom_deeps\blackfathom_deeps.cpp">
+      <Filter>Kalimdor Scripts\Instances\Blackfathom Deeps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\blackfathom_deeps\instance_blackfathom_deeps.cpp">
+      <Filter>Kalimdor Scripts\Instances\Blackfathom Deeps</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\dire_maul\dire_maul.cpp">
+      <Filter>Kalimdor Scripts\Instances\Dire Maul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\dire_maul\instance_dire_maul.cpp">
+      <Filter>Kalimdor Scripts\Instances\Dire Maul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\maraudon\boss_noxxion.cpp">
+      <Filter>Kalimdor Scripts\Instances\Maraudon Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\maraudon\maraudon.cpp">
+      <Filter>Kalimdor Scripts\Instances\Maraudon Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\razorfen_downs\instance_razorfen_downs.cpp">
+      <Filter>Kalimdor Scripts\Instances\Razorfen Downs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\razorfen_downs\razorfen_downs.cpp">
+      <Filter>Kalimdor Scripts\Instances\Razorfen Downs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\razorfen_kraul\instance_razorfen_kraul.cpp">
+      <Filter>Kalimdor Scripts\Instances\Razorfen Kraul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\razorfen_kraul\razorfen_kraul.cpp">
+      <Filter>Kalimdor Scripts\Instances\Razorfen Kraul</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\wailing_caverns\instance_wailing_caverns.cpp">
+      <Filter>Kalimdor Scripts\Instances\Wailing Caverns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\wailing_caverns\wailing_caverns.cpp">
+      <Filter>Kalimdor Scripts\Instances\Wailing Caverns</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\zulfarrak\boss_zumrah.cpp">
+      <Filter>Kalimdor Scripts\Instances\Zul Farrak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\zulfarrak\instance_zulfarrak.cpp">
+      <Filter>Kalimdor Scripts\Instances\Zul Farrak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\zulfarrak\zulfarrak.cpp">
+      <Filter>Kalimdor Scripts\Instances\Zul Farrak</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\onyxias_lair\boss_onyxia.cpp">
+      <Filter>Kalimdor Scripts\Raids\Onyxias Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\onyxias_lair\instance_onyxias_lair.cpp">
+      <Filter>Kalimdor Scripts\Raids\Onyxias Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\onyxias_lair\npc_onyxian_warder.cpp">
+      <Filter>Kalimdor Scripts\Raids\Onyxias Lair</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\boss_ayamiss.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\boss_buru.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\boss_kurinnaxx.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\boss_moam.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\boss_ossirian.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\boss_rajaxx.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\instance_ruins_of_ahnqiraj.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\ruins_of_ahnqiraj.cpp">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_bug_trio.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_cthun.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_fankriss.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_huhuran.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_ouro.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_sartura.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_skeram.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_twinemperors.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\boss_viscidus.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\instance_temple_of_ahnqiraj.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\mob_anubisath_sentinel.cpp">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\precompiled.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\sc_creature.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\sc_gossip.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\sc_grid_searchers.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include\sc_instance.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\system\ScriptDevMgr.h">
+      <Filter>System Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\system\ScriptLoader.h">
+      <Filter>System Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\system\system.h">
+      <Filter>System Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\escort_ai.h">
+      <Filter>Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\follower_ai.h">
+      <Filter>Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\guard_ai.h">
+      <Filter>Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base\pet_ai.h">
+      <Filter>Base Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\world\world_map_scripts.h">
+      <Filter>World Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_depths\blackrock_depths.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Depths</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackrock_spire\blackrock_spire.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Blackrock Spire</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\deadmines\deadmines.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Deadmines</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\gnomeregan\gnomeregan.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Gnomeregan</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scarlet_monastery\scarlet_monastery.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scarlet Monastery</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\scholomance\scholomance.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Scholomance</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\uldaman\uldaman.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Uldaman</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\shadowfang_keep\shadowfang_keep.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Shadowfang Keep</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\sunken_temple\sunken_temple.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Sunken Temple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\stratholme\stratholme.h">
+      <Filter>Eastern Kingdoms Scripts\Instances\Stratholme</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\molten_core\molten_core.h">
+      <Filter>Eastern Kingdoms Scripts\Raids\Molten Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain\blackwing_lair\blackwing_lair.h">
+      <Filter>Eastern Kingdoms Scripts\Raids\Blackwing Lair</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\naxxramas\naxxramas.h">
+      <Filter>Eastern Kingdoms Scripts\Raids\Naxxramas</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\zulgurub\zulgurub.h">
+      <Filter>Eastern Kingdoms Scripts\Raids\Zul Gurub</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\blackfathom_deeps\blackfathom_deeps.h">
+      <Filter>Kalimdor Scripts\Instances\Blackfathom Deeps</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\dire_maul\dire_maul.h">
+      <Filter>Kalimdor Scripts\Instances\Dire Maul</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\maraudon\maraudon.h">
+      <Filter>Kalimdor Scripts\Instances\Maraudon Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\razorfen_downs\razorfen_downs.h">
+      <Filter>Kalimdor Scripts\Instances\Razorfen Downs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\razorfen_kraul\razorfen_kraul.h">
+      <Filter>Kalimdor Scripts\Instances\Razorfen Kraul</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\wailing_caverns\wailing_caverns.h">
+      <Filter>Kalimdor Scripts\Instances\Wailing Caverns</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\zulfarrak\zulfarrak.h">
+      <Filter>Kalimdor Scripts\Instances\Zul Farrak</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\onyxias_lair\onyxias_lair.h">
+      <Filter>Kalimdor Scripts\Raids\Onyxias Lair</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\ruins_of_ahnqiraj\ruins_of_ahnqiraj.h">
+      <Filter>Kalimdor Scripts\Raids\Ruins of AQ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\kalimdor\temple_of_ahnqiraj\temple_of_ahnqiraj.h">
+      <Filter>Kalimdor Scripts\Raids\Temple of AQ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts" />
+    <None Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms\blackrock_mountain" />
+    <None Include="C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\scripts\eastern_kingdoms">
+      <Filter>Eastern Kingdoms Scripts</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Base Files">
+      <UniqueIdentifier>{B9FF4405-AE14-3E0D-A92F-49C769E3C71E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battleground Scripts">
+      <UniqueIdentifier>{963D6F0E-BC7B-3EA4-836B-78D7AAC57020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts">
+      <UniqueIdentifier>{9C47FA9D-9F67-373E-AEEE-81FBD65D7A4A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances">
+      <UniqueIdentifier>{3717C89E-CFA7-3ABA-A934-7A586EA6598B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Blackrock Depths">
+      <UniqueIdentifier>{44DB7255-485E-3242-A042-5A8C0CC10D6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Blackrock Spire">
+      <UniqueIdentifier>{4D72D1BA-6E4A-377C-B4B3-891ADC05E789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Deadmines">
+      <UniqueIdentifier>{66F30D27-0F16-39E1-A947-4FB6FCDAC23F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Gnomeregan">
+      <UniqueIdentifier>{1EC90655-959B-39A9-A343-6D070421F66C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Scarlet Monastery">
+      <UniqueIdentifier>{4F9C0540-E3B2-3AFC-B2D5-4B0111BFF5D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Scholomance">
+      <UniqueIdentifier>{8B1B97D2-94AD-3E41-8D7F-BA2E35E03D61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Shadowfang Keep">
+      <UniqueIdentifier>{CFD22F8F-FC89-35A2-9E58-C0A8C3417C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Stratholme">
+      <UniqueIdentifier>{29FE38C2-8D69-3B8A-AA91-5537342257A6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Sunken Temple">
+      <UniqueIdentifier>{99F79C0C-9388-35DA-96C7-2DC5A674600E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Instances\Uldaman">
+      <UniqueIdentifier>{67BCFD47-9085-3DE9-9878-47F4E1FD9952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Raids">
+      <UniqueIdentifier>{C0E0F330-BA8D-3BBE-A75E-B0A978ABFFC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Raids\Blackwing Lair">
+      <UniqueIdentifier>{FADF89D4-AC82-3FC5-A328-D2D94CFA97B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Raids\Molten Core">
+      <UniqueIdentifier>{56A9E0F3-CD74-3190-8F77-632A2D40F74B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Raids\Naxxramas">
+      <UniqueIdentifier>{BC958733-6F02-367A-AC53-D8ECF29D0762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Eastern Kingdoms Scripts\Raids\Zul Gurub">
+      <UniqueIdentifier>{27239B58-9D66-3148-B791-39F6A0E1C7A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3C79B78F-EE49-358F-BF78-8A31D912E682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{C5430BB6-94D1-3FCD-84AB-5B4AA7B72D96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts">
+      <UniqueIdentifier>{04BAE144-D79D-3BC3-9E51-893879B3268E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances">
+      <UniqueIdentifier>{792B2CCF-CB97-3A53-A0C0-60896A546863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances\Blackfathom Deeps">
+      <UniqueIdentifier>{36A5F1D7-51A8-3C1C-AF69-8E337C29FBC9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances\Dire Maul">
+      <UniqueIdentifier>{AC38497B-8C1F-3856-8C6E-D118C8877258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances\Maraudon Scripts">
+      <UniqueIdentifier>{B67E2988-0815-3DF5-B382-43F4B8E7A66C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances\Razorfen Downs">
+      <UniqueIdentifier>{C4B32A87-0C0B-3D7B-8943-B3736150D96C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances\Razorfen Kraul">
+      <UniqueIdentifier>{206F6A54-F4A3-336F-99C7-AE4B31C7E5B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances\Wailing Caverns">
+      <UniqueIdentifier>{77277352-B40E-3007-B15C-BBEE3D53BBA4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Instances\Zul Farrak">
+      <UniqueIdentifier>{A0178CFF-A5EA-30F1-A1CC-3512B26DA8A3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Raids">
+      <UniqueIdentifier>{E15D13B7-3E95-323A-BEEB-EB23BD82E11A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Raids\Onyxias Lair">
+      <UniqueIdentifier>{D016B65B-1876-32FF-B0C1-B74F8C61A957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Raids\Ruins of AQ">
+      <UniqueIdentifier>{CDE0787A-2F73-3D59-8973-88B072FA159D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kalimdor Scripts\Raids\Temple of AQ">
+      <UniqueIdentifier>{CECB06D9-F7E3-3642-A07E-C95C2D54CECC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D25792E-02BE-3133-B20F-DF7B85DF5BD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System Files">
+      <UniqueIdentifier>{D4DD6F4C-4A90-38B9-8422-F9A785503A61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World Scripts">
+      <UniqueIdentifier>{91968305-0BBE-319F-8D6E-7EDB07D239EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

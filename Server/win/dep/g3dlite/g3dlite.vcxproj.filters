@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\AABox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Any.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\BinaryFormat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\BinaryInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\BinaryOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Capsule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\CollisionDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\CoordinateFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Crypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\FileSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Line.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\LineSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Matrix3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Matrix4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\MemoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\PhysicsFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Quat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Ray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\ReferenceCount.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\RegistryUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\TextInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\TextOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\UprightFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Vector2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Vector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\Vector4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\debugAssert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\fileutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\g3dfnmatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\g3dmath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\prompt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\stringutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\G3D\uint128.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\dep\g3dlite\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D25792E-02BE-3133-B20F-DF7B85DF5BD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

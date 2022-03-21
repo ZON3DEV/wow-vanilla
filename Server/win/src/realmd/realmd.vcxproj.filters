@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Auth\AuthSocket.cpp">
+      <Filter>Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Patch\PatchHandler.cpp">
+      <Filter>Patch</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Realm\RealmList.cpp">
+      <Filter>Realmlist</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\SocketBuffer\BufferedSocket.cpp">
+      <Filter>Socket Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Auth\AuthCodes.h">
+      <Filter>Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Auth\AuthSocket.h">
+      <Filter>Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Patch\PatchHandler.h">
+      <Filter>Patch</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\Realm\RealmList.h">
+      <Filter>Realmlist</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\SocketBuffer\BufferedSocket.h">
+      <Filter>Socket Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\win\src\realmd\VersionInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\src\realmd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\VanillaWOW\Source\AIO\Server\cmake\win\VersionInfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Authentication">
+      <UniqueIdentifier>{69A1CF6D-9078-3666-9D63-2D570475A1E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3C79B78F-EE49-358F-BF78-8A31D912E682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patch">
+      <UniqueIdentifier>{3C677400-9BC1-3D01-AC74-C33C16016C46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Realmlist">
+      <UniqueIdentifier>{DA464953-AC08-3B7D-886D-9BA4DE20104B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Socket Buffer">
+      <UniqueIdentifier>{A074AA5E-E221-3AD2-8473-024E323B44BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6D25792E-02BE-3133-B20F-DF7B85DF5BD4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

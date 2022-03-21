@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6EC7A2DA-C540-38D8-A8E9-3FFE51D91BAB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vmap2</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vmap2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vmap2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vmap2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vmap2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vmap2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vmap2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vmap2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vmap2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_DEBUG;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_DEBUG;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Gw</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;MMAP_GENERATOR;NO_CORE_FUNCS;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\src\game\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot\ahbot.conf.dist.in;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot\aiplayerbot.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\game\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\BIH.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapManager2.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\MapTree.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\TileAssembler.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\WorldModel.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\ModelInstance.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\BIH.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\VMapManager2.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\MapTree.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\TileAssembler.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\WorldModel.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\game\vmap\ModelInstance.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\ZERO_CHECK.vcxproj">
+      <Project>{5109691F-F498-389C-9432-B5DAC70E4BB4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{7DFEAAC1-506B-32D7-A400-BFDC8878E7A8}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\acelite\ace.vcxproj">
+      <Project>{43843D81-DAB6-3DEF-8068-44982804EF95}</Project>
+      <Name>ace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\g3dlite\g3dlite.vcxproj">
+      <Project>{6038B645-9906-39A4-918B-149DAD595206}</Project>
+      <Name>g3dlite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\src\shared\shared.vcxproj">
+      <Project>{E340E87C-9DCC-305A-BE2B-BD55387F9CD0}</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\zlib\zlib.vcxproj">
+      <Project>{4BAC3A9A-B4C8-3217-9AAB-6AF4F5927FB5}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F83D4FF6-596C-3380-8BEF-0BD854EA30E0}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>mangosd</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mangosd.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">mangosd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mangosd.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">mangosd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mangosd.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">mangosd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mangosd.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">mangosd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_DEBUG;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_DEBUG;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\game\Debug\game.lib;..\..\dep\gsoap\Debug\gsoap.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MDd.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MDd.lib;..\modules\SD3\Debug\mangosscript.lib;..\game\Debug\game.lib;..\modules\SD3\Debug\mangosscript.lib;..\shared\Debug\shared.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MDd.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MDd.lib;..\..\dep\acelite\Debug\ace.lib;C:\Program Files\MySQL\MySQL Server 5.7\lib\libmysql.lib;..\..\dep\recastnavigation\Detour\Debug\Detour.lib;..\..\dep\g3dlite\Debug\g3dlite.lib;..\..\dep\zlib\Debug\zlib.lib;..\..\dep\lualib\Debug\lualib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/Debug/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/Debug/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Gw</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\game\Release\game.lib;..\..\dep\gsoap\Release\gsoap.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MD.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MD.lib;..\modules\SD3\Release\mangosscript.lib;..\game\Release\game.lib;..\modules\SD3\Release\mangosscript.lib;..\shared\Release\shared.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MD.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MD.lib;..\..\dep\acelite\Release\ace.lib;C:\Program Files\MySQL\MySQL Server 5.7\lib\libmysql.lib;..\..\dep\recastnavigation\Detour\Release\Detour.lib;..\..\dep\g3dlite\Release\g3dlite.lib;..\..\dep\zlib\Release\zlib.lib;..\..\dep\lualib\Release\lualib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/Release/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/Release/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\game\MinSizeRel\game.lib;..\..\dep\gsoap\MinSizeRel\gsoap.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MD.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MD.lib;..\modules\SD3\MinSizeRel\mangosscript.lib;..\game\MinSizeRel\game.lib;..\modules\SD3\MinSizeRel\mangosscript.lib;..\shared\MinSizeRel\shared.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MD.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MD.lib;..\..\dep\acelite\MinSizeRel\ace.lib;C:\Program Files\MySQL\MySQL Server 5.7\lib\libmysql.lib;..\..\dep\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\dep\g3dlite\MinSizeRel\g3dlite.lib;..\..\dep\zlib\MinSizeRel\zlib.lib;..\..\dep\lualib\MinSizeRel\lualib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/MinSizeRel/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/MinSizeRel/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;ENABLE_SOAP;ENABLE_SD3;ENABLE_PLAYERBOTS;ENABLE_ELUNA;CLASSIC;MANGOS_ENDIAN=0;ACE_AS_STATIC_LIBS;DT_POLYREF64;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\src\mangosd;C:\VanillaWOW\Source\AIO\Server\win\src\mangosd;C:\Building\OpenSSL\Win64\include;C:\VanillaWOW\Source\AIO\Server\src\game;C:\VanillaWOW\Source\AIO\Server\src\game\AuctionHouseBot;C:\VanillaWOW\Source\AIO\Server\src\game\BattleGround;C:\VanillaWOW\Source\AIO\Server\src\game\ChatCommands;C:\VanillaWOW\Source\AIO\Server\src\game\Maps;C:\VanillaWOW\Source\AIO\Server\src\game\MotionGenerators;C:\VanillaWOW\Source\AIO\Server\src\game\Object;C:\VanillaWOW\Source\AIO\Server\src\game\OutdoorPvP;C:\VanillaWOW\Source\AIO\Server\src\game\References;C:\VanillaWOW\Source\AIO\Server\src\game\Server;C:\VanillaWOW\Source\AIO\Server\src\game\Time;C:\VanillaWOW\Source\AIO\Server\src\game\Tools;C:\VanillaWOW\Source\AIO\Server\src\game\vmap;C:\VanillaWOW\Source\AIO\Server\src\game\Warden;C:\VanillaWOW\Source\AIO\Server\src\game\Warden\Modules;C:\VanillaWOW\Source\AIO\Server\src\game\WorldHandlers;C:\VanillaWOW\Source\AIO\Server\src\modules\Eluna;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\playerbot;C:\VanillaWOW\Source\AIO\Server\src\modules\Bots\ahbot;C:\VanillaWOW\Source\AIO\Server\src\shared;C:\VanillaWOW\Source\AIO\Server\win\src\shared;C:\VanillaWOW\Source\AIO\Server\src\shared\Auth;C:\VanillaWOW\Source\AIO\Server\src\shared\Common;C:\VanillaWOW\Source\AIO\Server\src\shared\Config;C:\VanillaWOW\Source\AIO\Server\src\shared\DataStores;C:\VanillaWOW\Source\AIO\Server\src\shared\Database;C:\VanillaWOW\Source\AIO\Server\src\shared\Linux;C:\VanillaWOW\Source\AIO\Server\src\shared\LockedQueue;C:\VanillaWOW\Source\AIO\Server\src\shared\Log;C:\VanillaWOW\Source\AIO\Server\src\shared\Threading;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities;C:\VanillaWOW\Source\AIO\Server\src\shared\Utilities\LinkedReference;C:\VanillaWOW\Source\AIO\Server\src\shared\Win;C:\VanillaWOW\Source\AIO\Server\src\shared\Dynamic;C:\VanillaWOW\Source\AIO\Server\src\shared\GameSystem;C:\VanillaWOW\Source\AIO\Server\src\shared\Platform;C:\VanillaWOW\Source\AIO\Server\src\shared\Policies;C:\VanillaWOW\Source\AIO\Server\dep\acelite;C:\VanillaWOW\Source\AIO\Server\dep\utf8cpp;C:\VanillaWOW\Source\AIO\Server\dep\recastnavigation\Detour\Include;C:\VanillaWOW\Source\AIO\Server\dep\zlib;C:\VanillaWOW\Source\AIO\Server\dep\g3dlite;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\base;C:\VanillaWOW\Source\AIO\Server\src\modules\SD3\include;C:\VanillaWOW\Source\AIO\Server\dep\lualib;C:\VanillaWOW\Source\AIO\Server\dep\gsoap;C:\Program Files\MySQL\MySQL Server 5.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\game\RelWithDebInfo\game.lib;..\..\dep\gsoap\RelWithDebInfo\gsoap.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MD.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MD.lib;..\modules\SD3\RelWithDebInfo\mangosscript.lib;..\game\RelWithDebInfo\game.lib;..\modules\SD3\RelWithDebInfo\mangosscript.lib;..\shared\RelWithDebInfo\shared.lib;C:\Building\OpenSSL\Win64\lib\VC\libssl64MD.lib;C:\Building\OpenSSL\Win64\lib\VC\libcrypto64MD.lib;..\..\dep\acelite\RelWithDebInfo\ace.lib;C:\Program Files\MySQL\MySQL Server 5.7\lib\libmysql.lib;..\..\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\dep\g3dlite\RelWithDebInfo\g3dlite.lib;..\..\dep\zlib\RelWithDebInfo\zlib.lib;..\..\dep\lualib\RelWithDebInfo\lualib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/RelWithDebInfo/mangosd.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/RelWithDebInfo/mangosd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\cmake\win\VersionInfo.h.in;C:\VanillaWOW\Source\AIO\Server\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\cmake\win\VersionInfo.h.in;C:\VanillaWOW\Source\AIO\Server\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\cmake\win\VersionInfo.h.in;C:\VanillaWOW\Source\AIO\Server\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/src/mangosd/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/src/mangosd/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\cmake\win\VersionInfo.h.in;C:\VanillaWOW\Source\AIO\Server\src\mangosd\mangosd.conf.dist.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\AFThread.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\AFThread.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\CliThread.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\CliThread.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\RAThread.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\RAThread.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\WorldThread.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\WorldThread.h" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\mangosd.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\SOAP\SoapThread.cpp" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\src\mangosd\SOAP\SoapThread.h" />
+    <ClInclude Include="C:\VanillaWOW\Source\AIO\Server\win\src\mangosd\VersionInfo.h" />
+    <ResourceCompile Include="C:\VanillaWOW\Source\AIO\Server\cmake\win\VersionInfo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\ZERO_CHECK.vcxproj">
+      <Project>{5109691F-F498-389C-9432-B5DAC70E4BB4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>{7DFEAAC1-506B-32D7-A400-BFDC8878E7A8}</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\acelite\ace.vcxproj">
+      <Project>{43843D81-DAB6-3DEF-8068-44982804EF95}</Project>
+      <Name>ace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\g3dlite\g3dlite.vcxproj">
+      <Project>{6038B645-9906-39A4-918B-149DAD595206}</Project>
+      <Name>g3dlite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\src\game\game.vcxproj">
+      <Project>{5339F317-7943-3DF9-B862-A79DB08964F7}</Project>
+      <Name>game</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\gsoap\gsoap.vcxproj">
+      <Project>{E6E744F7-D958-3F75-A546-B534CD7A5086}</Project>
+      <Name>gsoap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\lualib\lualib.vcxproj">
+      <Project>{C9819828-C275-3D3C-924F-ADF35923BF84}</Project>
+      <Name>lualib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\src\shared\shared.vcxproj">
+      <Project>{E340E87C-9DCC-305A-BE2B-BD55387F9CD0}</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\dep\zlib\zlib.vcxproj">
+      <Project>{4BAC3A9A-B4C8-3217-9AAB-6AF4F5927FB5}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8D43454E-6777-3E09-A99E-E79F7BDE7B94}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>stormlib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stormlib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stormlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stormlib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">stormlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">stormlib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">stormlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">stormlib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">stormlib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR="Debug";stormlib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR=\"Debug\";stormlib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wininet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/Debug/stormlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/VanillaWOW/Source/AIO/Server/dep/StormLib/src/DllMain.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/Debug/stormlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Gw</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR="Release";stormlib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR=\"Release\";stormlib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wininet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/Release/stormlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/VanillaWOW/Source/AIO/Server/dep/StormLib/src/DllMain.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/Release/stormlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR="MinSizeRel";stormlib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR=\"MinSizeRel\";stormlib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wininet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/MinSizeRel/stormlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/VanillaWOW/Source/AIO/Server/dep/StormLib/src/DllMain.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/MinSizeRel/stormlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4267;4244;4245;4458;4581;4589;4131;4311;4456;4127;4100;4389;4189;4701;4706;4703;4702;4302;4305;4018;4840;4101</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR="RelWithDebInfo";stormlib_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;_WIN64;_7ZIP_ST;BZ_STRICT_ANSI;CMAKE_INTDIR=\"RelWithDebInfo\";stormlib_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>wininet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/RelWithDebInfo/stormlib.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/VanillaWOW/Source/AIO/Server/dep/StormLib/src/DllMain.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/RelWithDebInfo/stormlib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/dep/StormLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Building\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Building\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/dep/StormLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Building\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Building\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/dep/StormLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Building\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Building\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/VanillaWOW/Source/AIO/Server/dep/StormLib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Building\CMake\bin\cmake.exe -SC:/VanillaWOW/Source/AIO/Server -BC:/VanillaWOW/Source/AIO/Server/win --check-stamp-file C:/VanillaWOW/Source/AIO/Server/win/dep/StormLib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Building\CMake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPack.cmake;C:\Building\CMake\share\cmake-3.21\Modules\CPackComponent.cmake;C:\Building\CMake\share\cmake-3.21\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\VanillaWOW\Source\AIO\Server\win\dep\StormLib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\adpcm\adpcm.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\huffman\huff.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\jenkins\lookup3.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\lzma\C\LzFind.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\lzma\C\LzmaDec.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\lzma\C\LzmaEnc.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\pklib\explode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\pklib\implode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\sparse\sparse.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\FileStream.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SBaseCommon.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SBaseDumpData.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SBaseFileTable.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SBaseSubTypes.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SCompression.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileAddFile.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileAttributes.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileCompactArchive.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileCreateArchive.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileExtractFile.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileFindFile.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileGetFileInfo.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileListFile.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileOpenArchive.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileOpenFileEx.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFilePatchArchives.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileReadFile.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\SFileVerify.cpp" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\rsa\rsa_verify_simple.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_libc.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\bzip2\blocksort.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\bzip2\bzlib.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\bzip2\compress.c">
+      <ObjectFileName>$(IntDir)/src/bzip2/compress.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\bzip2\crctable.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\bzip2\decompress.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\bzip2\huffman.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\bzip2\randtable.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\adler32.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\compress.c">
+      <ObjectFileName>$(IntDir)/src/zlib/compress.c.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\crc32.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\deflate.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\inffast.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\inflate.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\inftrees.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\trees.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\zlib\zutil.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\hashes\hash_memory.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\hashes\md5.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\hashes\sha1.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\math\ltm_desc.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\math\multi.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\math\rand_prime.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\base64_decode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_argchk.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_find_hash.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_find_prng.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_hash_descriptor.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_hash_is_valid.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_ltc_mp_descriptor.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_prng_descriptor.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_prng_is_valid.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_register_hash.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\crypt_register_prng.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\misc\zeromem.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_bit_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_boolean.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_choice.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_ia5_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_integer.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_object_identifier.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_octet_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_printable_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_sequence_ex.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_sequence_flexi.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_sequence_multi.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_short_integer.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_utctime.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_decode_utf8_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_bit_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_boolean.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_ia5_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_integer.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_object_identifier.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_octet_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_printable_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_sequence_ex.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_sequence_multi.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_set.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_setof.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_short_integer.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_utctime.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_encode_utf8_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_bit_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_boolean.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_ia5_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_integer.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_object_identifier.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_octet_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_printable_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_sequence.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_utctime.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_sequence_free.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_utf8_string.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\asn1\der_length_short_integer.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\ecc\ltc_ecc_map.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\ecc\ltc_ecc_mul2add.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\ecc\ltc_ecc_mulmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\ecc\ltc_ecc_points.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\ecc\ltc_ecc_projective_add_point.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\ecc\ltc_ecc_projective_dbl_point.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\pkcs1\pkcs_1_mgf1.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\pkcs1\pkcs_1_oaep_decode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\pkcs1\pkcs_1_pss_decode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\pkcs1\pkcs_1_pss_encode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\pkcs1\pkcs_1_v1_5_decode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\pkcs1\pkcs_1_v1_5_encode.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\rsa\rsa_exptmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\rsa\rsa_free.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\rsa\rsa_import.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\rsa\rsa_make_key.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\rsa\rsa_sign_hash.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtomcrypt\src\pk\rsa\rsa_verify_hash.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bncore.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_fast_mp_invmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_fast_mp_montgomery_reduce.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_fast_s_mp_mul_digs.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_fast_s_mp_mul_high_digs.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_fast_s_mp_sqr.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_2expt.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_abs.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_add.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_addmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_add_d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_and.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_clamp.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_clear.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_clear_multi.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_cmp.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_cmp_d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_cmp_mag.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_cnt_lsb.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_copy.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_count_bits.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_div.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_div_2.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_div_2d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_div_3.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_div_d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_dr_is_modulus.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_dr_reduce.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_dr_setup.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_exch.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_exptmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_exptmod_fast.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_expt_d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_exteuclid.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_fread.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_fwrite.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_gcd.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_get_int.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_grow.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_init.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_init_copy.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_init_multi.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_init_set.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_init_set_int.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_init_size.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_invmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_invmod_slow.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_is_square.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_jacobi.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_karatsuba_mul.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_karatsuba_sqr.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_lcm.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_lshd.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mod_2d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mod_d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_montgomery_calc_normalization.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_montgomery_reduce.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_montgomery_setup.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mul.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mulmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mul_2.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mul_2d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_mul_d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_neg.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_n_root.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_or.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_prime_fermat.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_prime_is_divisible.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_prime_is_prime.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_prime_miller_rabin.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_prime_next_prime.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_prime_rabin_miller_trials.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_prime_random_ex.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_radix_size.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_radix_smap.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_rand.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_read_radix.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_read_signed_bin.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_read_unsigned_bin.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce_2k.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce_2k_l.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce_2k_setup.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce_2k_setup_l.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce_is_2k.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce_is_2k_l.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_reduce_setup.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_rshd.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_set.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_set_int.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_shrink.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_signed_bin_size.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_sqr.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_sqrmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_sqrt.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_sub.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_submod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_sub_d.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_toom_mul.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_toom_sqr.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_toradix.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_toradix_n.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_to_signed_bin.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_to_signed_bin_n.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_to_unsigned_bin.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_to_unsigned_bin_n.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_unsigned_bin_size.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_xor.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_mp_zero.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_prime_tab.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_reverse.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_s_mp_add.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_s_mp_exptmod.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_s_mp_mul_digs.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_s_mp_mul_high_digs.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_s_mp_sqr.c" />
+    <ClCompile Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\libtommath\bn_s_mp_sub.c" />
+    <None Include="C:\VanillaWOW\Source\AIO\Server\dep\StormLib\src\DllMain.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\VanillaWOW\Source\AIO\Server\win\ZERO_CHECK.vcxproj">
+      <Project>{5109691F-F498-389C-9432-B5DAC70E4BB4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
